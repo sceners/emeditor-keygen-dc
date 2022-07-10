@@ -1,0 +1,60 @@
+#define MANIFEST 24
+#define IDR_VERSION1 1
+
+103 ICON DISCARDABLE "Res/1.ico"
+200 CURSOR DISCARDABLE "Res/cur101.cur"
+
+1 MANIFEST "Res/template.xml"
+
+1 DIALOGEX 0,0,192,104
+FONT 8,"Tahoma",0,0,0
+STYLE 0x90000800
+EXSTYLE 0x00000008
+BEGIN
+  CONTROL "",4,"Static",0x50000000,3,15,186,86
+  CONTROL "",107,"Button",0x5001000B,156,84,30,12
+  CONTROL "",102,"Button",0x5001000B,123,84,30,12
+  CONTROL "",105,"Button",0x5001000B,7,84,30,12
+  CONTROL "",108,"Button",0x50010003,9,70,9,9
+  CONTROL "",112,"Static",0x50000000,19,70,30,9
+  CONTROL "",110,"Static",0x50000001,132,69,57,9
+  CONTROL "www.emeditor.com",1003,"HLINK",0x50000010,39,84,81,12
+  CONTROL "",5,"Static",0x50000001,3,3,186,9
+  CONTROL "",700,"Button",0x50010003,51,70,9,9
+  CONTROL "",800,"Static",0x50000000,61,70,24,9
+  CONTROL "IDC_CHK",109,"Button",0x50010003,89,70,9,9
+  CONTROL "",111,"Static",0x50000000,99,70,21,9
+END
+
+1000 DIALOGEX 10,10,187,98
+FONT 8,"Tahoma",0,0,204
+STYLE 0x90000800
+EXSTYLE 0x00000008
+BEGIN
+END
+
+IDR_VERSION1 VERSIONINFO
+FILEVERSION 0,0,0,82
+PRODUCTVERSION 0,0,0,82
+FILEOS 0x00000004
+FILETYPE 0x00000001
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "041904E4"
+    BEGIN
+      VALUE "FileVersion", "0.0.0.1\0"
+      VALUE "ProductVersion", "0.0.0.1\0"
+      VALUE "CompanyName", "ADMIN@CRACK\0"
+      VALUE "FileDescription", "Bugs Remover :)\0"
+      VALUE "InternalName", "Client for Google Translate 5.xx patch\0"
+      VALUE "OriginalFilename", "Client_for_Google_Translate_5.xx.exe\0"
+      VALUE "ProductName", "Client for Google Translate 5.xx patch\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x0419, 0x04E4
+  END
+END
+
